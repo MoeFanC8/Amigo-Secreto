@@ -3,7 +3,7 @@ var nombreAmigo = document.getElementById("amigo");
 nombreAmigo.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
       event.preventDefault();
-      document.getElementById("agregarAmigo").click();
+      document.getElementById(agregarAmigo()).click();
     }
 });
 
